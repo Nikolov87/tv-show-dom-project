@@ -1,3 +1,31 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  h1.text {
+    color: red;
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    font-size: 15px;
+  }
+
+  img {
+    height: 400px;
+  }
+}
+
+
 #root {
   color: red;
+}
+
+h1 {
+  color: red;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  font-size: 2em;
+
+}
+
+img {
+  padding: 0.1%;
 }
