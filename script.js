@@ -1,7 +1,7 @@
 //You can edit ALL of the code here
 const rootElem = document.getElementById("root");
 console.log(rootElem);
-// let tvshow = getAllEpisodes();
+let tvshow = getAllEpisodes();
 
 tvshow.forEach((element) => {
   // debugger;
