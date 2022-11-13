@@ -7,25 +7,58 @@
     font-size: 15px;
   }
 
-  img {
-    height: 400px;
-  }
+
 }
 
+body {
+  background-color: rgb(236, 226, 226);
+}
 
 #root {
-  color: red;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* background-color: antiquewhite; */
+}
+ 
+.episode-container {
+  background-color: rgb(168, 175, 185);
 }
 
 h1 {
   color: red;
-  position: absolute;
-  left: 30px;
+  /* position: absolute; */
+  left: 100px;
   top: 10px;
   font-size: 2em;
+  text-align: center;
+}
+
+.logo {
+ padding: 0.5%;
+}
+
+h4 {
+  text-align: center;
 
 }
 
+p {
+  justify-content: center ;
+  /* align-items: center; */
+  text-align: center;
+  margin: 1em;
+}
+
 img {
-  padding: 0.1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lse {
+  text-align: center;
+  margin: auto;
+  /* position: fixed; */
+  padding: 2rem;
 }
